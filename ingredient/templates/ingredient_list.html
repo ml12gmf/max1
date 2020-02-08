@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Lista ingredienti</h2>
+    <ul>
+        {% for ingredienti in object_list %}
+            <li>{{ ingredienti.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
