@@ -26,14 +26,14 @@ Utenti:
 
 La procedura di installazione nel terminal e' la seguente:
 
-cd ~
-mkdir Dev
-cd Dev
-mkdir max
-cd max 
-virtualenv -p python3 .
-source bin/activate 
-pip install Django==2.0.7
-mkdir src
-cd src
-Django-admin createproject max  
+1) cd ~
+2) mkdir Dev
+3) cd Dev
+4) mkdir max
+5) cd max 
+6) virtualenv -p python3 .
+7) source bin/activate 
+8) pip install Django==2.0.7
+9) mkdir src
+10) cd src
+11) Django-admin createproject max  
